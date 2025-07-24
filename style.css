@@ -8,7 +8,7 @@
 
 
 html, body {
-        width : 100%; /* issue with width*/
+        width : 100%;
         height : 100%;
 }
 
@@ -51,7 +51,6 @@ html, body {
 }
 
 
-
 #nav #right{/*Menu icon*/
         display: flex;
         align-items: center;
@@ -64,10 +63,8 @@ html, body {
         font-weight: 600;
         font-size: 1.3vw;
         letter-spacing: 0.1px;
-        color: black;
-       
+        color: black;   
 }
-
 
 
 #nav i{
@@ -76,20 +73,13 @@ html, body {
 }
 
 
-
 #home #HomeMain{
-     
         width: 100%;
         padding: 15vw 15vw;
-        
-     
-
-
 }
 
 
 #HomeMain h1 {
-
         font-size: 1.5vw;
         font-weight: 400;
         letter-spacing: -.1vw;
@@ -113,28 +103,20 @@ html, body {
         font-weight: 400;
         letter-spacing: -5px;
         line-height: 1;
-
-
 }
 
 
 #Homelast{
         padding: 5vw 15vw;
-    
-
 }
 
 
 #Homelast p{
-    
         font-size: 1.6vw;
         font-weight: 400;
         letter-spacing: -0.08vw;
         width: 70%;
-
-     
 }
-
 
 
 #Homelast p::selection{
@@ -143,26 +125,22 @@ html, body {
 }
 
 
-
 #featured{
-        
         padding: 10vw 15vw;
-
 }
+
 
 .fheading>h1{
        line-height: 1;
        font-size: 3vw;
        font-weight: 400;
-
-
 }
+
 
 .fheading>h1:nth-child(2){
         color: transparent;
         -webkit-text-stroke: 1px black;
 }
-
 
 
 #fimages {
@@ -174,6 +152,7 @@ html, body {
 
 }
 
+
 #fleft{
         overflow: hidden;
 
@@ -183,15 +162,15 @@ html, body {
 
 }
 
+
 .fleftelm {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
         height: inherit;
-
-
 }
+
 
 .fleftelm h1{
         font-size: 2.5vw;
@@ -201,9 +180,11 @@ html, body {
         margin: 1.5vw 0;
 }
 
+
 .fleftelm h4{
         opacity: .5;
 }
+
 
 .fleftelm h3{
         font-size: 1.3vw;
@@ -217,10 +198,7 @@ html, body {
         align-items: center;
         justify-content: flex-end;
         width: 45%;
-        height: inherit;
-
-        
-       
+        height: inherit;      
 }
 
 
@@ -236,12 +214,14 @@ html, body {
         object-fit: cover;
 }
 
+
 .btndiv{
         display: flex;
         align-items: center;
         justify-content: center;
 
 }
+
 
 .btndiv button{
         padding: 1.3vw 2.5vw;
@@ -250,26 +230,26 @@ html, body {
         background-color: white;
         font-size: 1vw;
         letter-spacing: -1px;
-        
+        /* border: 1px solid #c9b037;/*M*/
+        /* background-color: #ffffff;M */
+        background-color: #f9f5ef;
+        border: 1px solid #e6d3b3;
+        color: #1a1a1a;
 }
 
 
 #dev{
         width: 100%;
         padding: 5vw 15vw;
-
-
 }
+
 
 #dev h1{
         font-size: 3.8vw;
         font-weight: 400;
         width: 60%;
         line-height: 1;
-
-
 }
-
 
 
 #dev p{
@@ -278,34 +258,29 @@ html, body {
         line-height: 1;
         letter-spacing: -.5px;
         width: 60%;
-
-
 }
-
-
 
 
 #slides{
         padding: 3vw 10vw;
         display: flex;
         justify-content: space-between;
-
 }
+
+
 .slide{
         width: 30%;
-
-
-
 }
+
+
 .slide .img{
         width: 100%;
         height: 270px;
         background-color: yellow;
         overflow: hidden;
-        border-radius: 5px; 
-
-        
+        border-radius: 5px;     
 }
+
 
 .slide .tag{ 
        margin: 20px 0px;
@@ -313,9 +288,8 @@ html, body {
        background-color: #f7f7f7;
        width: fit-content;
        border-radius: 100px;
-
-
 }
+
 
 .slide .img img{
         width: 100%;
@@ -323,11 +297,11 @@ html, body {
         object-fit: cover;
 }
 
+
 .slide .h3{
         font-size: 1.4vw;
         font-weight: 400;
-        letter-spacing: -.5px;
-        
+        letter-spacing: -.5px;     
 }
 
 
