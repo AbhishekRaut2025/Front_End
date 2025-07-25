@@ -3,7 +3,7 @@ Shery.mouseFollower(); //creates mouse follower
 Shery.makeMagnet(".magnet"); //creats magnet effect
 
 Shery.hoverWithMediaCircle(".hvr", {videos:["videos/0.mp4", "videos/2.mp4", "videos/3.mp4"] });//play video when hover
-// console.log("THREE is:", THREE);
+
 
 gsap.to(".fleftelm",{                    //gsap controlls animation
     scrollTrigger:{              //scrollTrigger stops screen
@@ -37,4 +37,17 @@ Shery.imageEffect(".images", {
   },
 });
 
-Shery.makeMagnet(".btndiv button")
+
+const fillButtons = document.querySelectorAll('.fill-btn');
+
+fillButtons.forEach(button => {
+    button.addEventListener('mousemove', e => {
+        const rect = e.target.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        button.style.setProperty('--x', `${x}px`);
+        button.style.setProperty('--y', `${y}px`);
+    });
+});
+
+    
